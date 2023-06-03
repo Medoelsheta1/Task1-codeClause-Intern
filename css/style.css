@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+}
+.converter {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    padding: 20px;
+    border: 1px solid #EEE;
+    box-shadow: rgba(15, 180, 98, 0.24) 5px 3px 8px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: white;
+}
+.row div {
+    display: flex;
+    flex-direction: column;
+    margin: 0 30px;
+}
+
+.converter-content > div input {
+    padding: 10px 15px;
+}
+.title {
+    color: #00cc8f;
+    text-align: center;
+
+}
